@@ -2,10 +2,6 @@ name: hexlet-ci-app.yml
 on:
   - push
 jobs:
-  build-frontend:
-  build-backend:
-  test:
-    needs: build-backend
   build:
     runs-on: ubuntu-latest
     steps:
